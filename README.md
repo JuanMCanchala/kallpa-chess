@@ -1,4 +1,4 @@
-# chess-motor-web
+# Kallpa Chess
 
 Suite de estudio y análisis de ajedrez: un solo programa para jugar, analizar, explorar aperturas y enfrentar motores entre sí. Corre en el navegador y como aplicación de escritorio (Tauri), con motores UCI locales — sin depender de servicios externos.
 
@@ -50,8 +50,8 @@ Agregar uno más es añadir una entrada en `server/engines.js`.
 Requisitos: Node 18+ y al menos un binario UCI (por ejemplo [Stockfish](https://stockfishchess.org/download/)).
 
 ```bash
-git clone https://github.com/JuanMCanchala/chess-motor-web
-cd chess-motor-web
+git clone https://github.com/JuanMCanchala/kallpa-chess
+cd kallpa-chess
 npm install
 cp .env.example .env        # indica la ruta a tu binario de Stockfish
 npm run dev                 # http://localhost:3000
